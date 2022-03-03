@@ -19,19 +19,19 @@
     <h3>Amenities</h3>
     <ul>
     {% for a in room.amenities.all  %}
-        {{a}}
+        <li>{{a}}</li>
     {% endfor %}
     </ul>
     <h3>Faciliteis</h3>
     <ul>
-    {% for a in room.facilities.all  %}
-        {{a}}
+    {% for f in room.facilities.all  %}
+        <li>{{f}}</li>
     {% endfor %}
     </ul>
     <h3>House Rules</h3>
     <ul>
-    {% for a in room.house_rules.all  %}
-        {{a}}
+    {% for h in room.house_rules.all  %}
+        <li>{{h}}</li>
     {% endfor %}
     </ul>
 </div>
